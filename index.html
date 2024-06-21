@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">cadastro de DEVs</h1>
+        <p id="subtitulo">complete com suas informações</p>
+        <br>
+    </div>
+    <form action=""> <fieldset>
+        <div class="campo">
+            <label for="nome"><strong>qual seu primeiro nome:</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div class="campo">
+        <label for="sobrenome"><strong>qual seu sobrenome:</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" required>
+    </div>
+    </fieldset class="grupo">
+    <div class="campo"><label for="email"><strong> qual seu e-mail:</strong></label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="campo"><label for="aplicação"><strong> de qual lado da aplicação você desenvolve?</strong></label>
+        <br>
+    <label for=""> <input type="radio" name="devwb" id="frontend">fornt-end</label>
+    <br>
+   <label for=""><input type="radio" name="devwb" id="backend">back-end</label>
+   <br>
+   <label for=""><input type="radio" name="devwb" id="fullstack">fullstack </label>
+    </div>
+    <div class="campo">
+        <label for="curso"><strong>qual o seu curso?</strong></label>
+        <br>
+        <label for="curso"><strong>curso</strong></label>
+    <select id="curso">
+        <option selected disabled value=""><strong>celecione</strong></option>
+        <option value="">outros</option>
+        <option value="">informatica</option>
+        <option value="">adiministração</option>
+        <option value="">masoterapia</option>
+    </select>
+</div>
+<fieldset>
+    <div class="campo">
+        <label for=""><strong>você utiliza algumas dessas tecnologias você ultiliza?</strong></label>
+        <br>
+        <input type="checkbox" name="tecnologia1" id="tecnologia1" value="HTML">
+        <label for="tecnologia1">HTML</label>
+       <br>
+        <input type="checkbox" name="tecnologia2" id="tecnologia2" value="CSS">
+       <label for="tecnologia2">CSS</label>
+       <br>
+       <input type="checkbox" name="tecnologia3" id="tecnologia3" value="JS">
+       <label for="tecnologia3">JS</label>
+        <br>
+        <input type="checkbox" name="tecnologia4" id="tecnologia1" value="PHP">
+        <label for="tecnologia4">PHP</label>
+       <br>
+        <input type="checkbox" name="tecnologia5" id="tecnologia5" value="C#">
+       <label for="tecnologia5">C#</label>
+       <br>
+       <input type="checkbox" name="tecnologia6" id="tecnologia6" value="Python">
+       <label for="tecnologia6">Python</label>
+    </div>
+</fieldset class = "grupo">
+<div class="campo">
+    <br>
+    <label for=""><strong> Nus fale como é sua experiencia com esse site:</strong></label>
+    <br>
+    <textarea  rows="6" style="width:23cm;" name="experiencia" id="experiencia"></textarea>
+</div>
+    <button type="submit" class="botao"><strong>enviar</strong></button>
+</form>
+</body>
+</html>
